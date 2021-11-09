@@ -6,7 +6,7 @@ what exactly I want to create for this project. I have two ideas right now of wh
 game because a multiplayer game would be too ambitious and I don't believe I'll be able to achieve it. 
 
 Currently I'm still in the researching phase of the Design Engineering Project. I still don't know much about Unity and C# so I will continue researching it. This [video](https://www.youtube.com/watch?v=on9nwbZngyw) helped me a lot while I was researching. The video didn't teach me anything about C# but it told me a lot about how Unity works 
-and what I should think about when starting Unity. I also used [w3schools](https://www.w3schools.com/cs/index.php) to look at soem C# code and I noticed that it is similar to code I've done before
+and what I should think about when starting Unity. I also used [w3schools](https://www.w3schools.com/cs/index.php) to look at some C# code and I noticed that it is similar to code I've done before
 
 ```C# Snippet
 Console.WriteLine("Hello World!");
