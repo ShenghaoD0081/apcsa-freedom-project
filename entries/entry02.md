@@ -28,17 +28,17 @@ public class NewBehaviourScript : MonoBehaviour
 
 The code above is what you will see when you load up a C# script. Everything inside ``void Start()`` will run once in the beginning and everything inside ``void Update()`` will once once per frame. You can also use ``void FixedUpdate()`` instead since it works better with physics but in my case I won't be using it since there are no physics in a 2D game (I hope so). After I learned about this I decided to try to make a Player Movement script and the code below is essential for that.
 
-``
+```
 Input.GetAxis("Horizontal");
 Input.GetAxis("Vertical");
-``
+```
 
 This code above is what I used to get the user input for movement. The input of `horizontal` and `vertical` is determined by the WASD keys. If a user presses W the vertical will go towards 1, if the user presses S the vertical will go towards -1. This also applies to Vertical but with the A and D keys. You can also use the code below:
 
-``
+```
 Input.GetAxisRaw("Horizontal");
 Input.GetAxisRaw("Vertical");
-``
+```
 
 The only difference from ``GetAxis()`` and ``GetAxisRaw()`` is that ``GetAxisRaw()`` will only return 0, 1, or -1 while ``GetAxis()`` will gradually change and also return the numbers in between. This can be both used, for example moving vertically would need ``GetAxis()`` so you can detect if it's closer to -1 or 1 then move according to those numbers. Once we get the axis, animation is quite easy as Unity has something called the [Animator Controller](https://docs.unity3d.com/Manual/class-AnimatorController.html). This allows you to set animations pretty easier, but it does get a bit messy if you have a lot of animations. This [video](https://www.youtube.com/watch?v=wdOk5QXYC6Y) helped me with 3D animation while this [video](https://www.youtube.com/watch?v=wdOk5QXYC6Y) helped me with 2D animation. Both were really useful as Unity can be a bit confusing at times since there is a lot of different things you have to do.
 
