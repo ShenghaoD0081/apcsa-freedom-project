@@ -5,25 +5,26 @@ Throughout the past month I have been playing around with Unity quite a lot. Eve
 
 First off when starting to code in Unity you will see something like this:
 
-``
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-
+    // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
+    // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
-``
+```
 
 The code above is what you will see when you load up a C# script. Everything inside ``void Start()`` will run once in the beginning and everything inside ``void Update()`` will once once per frame. You can also use ``void FixedUpdate()`` instead since it works better with physics but in my case I won't be using it since there are no physics in a 2D game (I hope so). After I learned about this I decided to try to make a Player Movement script and the code below is essential for that.
 
