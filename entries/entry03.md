@@ -2,7 +2,11 @@
 ##### 2/13/2022
 
 ### Progress
-During this month I got quite a few things down. Taking into account the basics of the game, I would need the enemy to follow the player so they can attack the player which means I need pathfinding. It would take some time to make my own pathfinding algorithm so I decided to use the [A* Pathfinding](https://arongranberg.com/astar/] project. Later on I would like to make my own algorithm but it's too complicated for now so I would like to work on that later. The implentation was quite easy however since there was no obstacle my enemy could actually follow me any where so next I decided to get a tile map and have it act as a obstacle. One issue I ran into was that I wanted certain objects like trees and houses to be obstacles but grass shouldn't be a obstacle. To fix that I have different layers as such:
+During this month I got quite a few things down. Taking into account the basics of the game, I would need the enemy to follow the player so they can attack the player which means I need pathfinding. It would take some time to make my own pathfinding algorithm so I decided to use the [A* Pathfinding](https://arongranberg.com/astar/) project. Later on I would like to make my own algorithm but it's too complicated for now so I would like to work on that later. The implentation was quite easy however since there was no obstacle my enemy could actually follow me any where so next I decided to get a tile map and have it act as a obstacle. Tilemaps were quite easy to set up with the help of this [video](https://www.youtube.com/watch?v=nwE79KKw4TE). I found a tilemap I liked online that was available and split it into 12 pixels x 12 pixels and from there I can just drag the tiles on. 
+
+![image](https://user-images.githubusercontent.com/56265106/157586032-ab6e9f78-5a24-476c-b3a6-8dd698017479.png)
+
+As you can see the white box is what I've selected and I can just drag that onto the game itself. One issue I ran into was that I wanted certain objects like trees and houses to be obstacles but grass shouldn't be a obstacle. To fix that I have different layers as such:
 
 ![image](https://user-images.githubusercontent.com/56265106/157583418-056e1d36-5bef-447f-9e89-4f5b0a049999.png)
 
@@ -56,8 +60,8 @@ First I made a reference to game object which you can see as `public GameObject 
 ![image](https://user-images.githubusercontent.com/56265106/157584325-f77b1d46-15a6-433f-a4f3-22bed617a51e.png)
 
 
-### Next plans
-I plan to take things step by step this time. I want to make the camera follow the player first then make it so it doesn't go out of bounds (outside the map). Then I want to implement the attacking system and a health bar system since those features are vital in a RPG Game. After that I would like to find sprites and create a animation for them which makes the game more RPG like since all I have right now besides the tile map are squares as the player and enemy. I am currently on the creating part of the Engineer Design process so I want to finish the core features first and make sure my game properly works then I can move on to save and load features as well as the UI. 
+### Next plans and thoughts
+I plan to take things step by step this time. I want to make the camera follow the player first then make it so it doesn't go out of bounds (outside the map). Then I want to implement the attacking system and a health bar system since those features are vital in a RPG Game. After that I would like to find sprites and create a animation for them which makes the game more RPG like since all I have right now besides the tile map are squares as the player and enemy. I am currently on the creating part of the Engineer Design process so I want to finish the core features first and make sure my game properly works then I can move on to save and load features as well as the UI. One skill that I really used in this coding session was critical thinking since there wasn't a video about how to set a radius on pathfinding in Unity so I had to think about it myself. I did search up how to reference different scripts as well as different game objects from a script in order to make this since the solution I came to was that I just had to disable the code and re-enable it when the enemy comes close. This will help me in the future as well when I'm thinking of scenarios like this again.
 
 ### Goals
 My current goal is to finish my MVP (Minimal Viable Project) by April and use May and June to fine tune the game by optimizing the code and adding things beyond the MVP. Knowing me, I know it's going to be a hard process and it's very likely that it won't even happen so I will have to be stricter on myself when deciding work dates for this project.
