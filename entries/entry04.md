@@ -13,7 +13,7 @@ What this does is change the position of the camera to exactly where the player 
 
 As you can see it's just a blue screen. This is caused by us having the same z value (up and down) as the player which puts us under the player. The result is what you see here, a blue screen. In order to fix this, I changed `target.transform.position.z` to `transform.position.z` which makes it so we only change to the player's x and y coordinates and instead we have a top down view now, here is the new result:
 
-![Alt Text](https://gfycat.com/defiantillustriousindianglassfish)
+![Alt Text](https://user-images.githubusercontent.com/56265106/159388682-916f0008-82e1-4e3e-b8c7-662bc9268d2d.gif)
 
 
 [Previous](entry03.md) | [Next](entry05.md)
