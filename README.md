@@ -3,7 +3,7 @@ by Shenghao Dong
 
 ## Context
 The “Freedom Project” for APCSA is all about creating a product about something we are passionate about. The purpose of this blog is to monitor my progress on the project from start to end.
-TBD
+
 ## Content
 For my project, I am making a Top-Down 2D Game. This blog will walk through my process of independently studying Unity in order to make the Top-Down 2D Game.
 
@@ -14,7 +14,7 @@ For my project, I am making a Top-Down 2D Game. This blog will walk through my p
 [Presentation](https://github.com/ShenghaoD0081/Top-Down-RPG)
 
 ## Implications
-X
+My product is a game and it brings entertainment to society which is a good thing for people to relieve stress and relax. There are bad things about this project however, with entertainment people may get addicted and forget about other tasks at hand.
 
 ---
 
