@@ -2,16 +2,16 @@
 by Shenghao Dong
 
 ## Context
-The “Freedom Project” for APCSA is all about X. The purpose of this blog is to X.
+The “Freedom Project” for APCSA is all about creating a product about something we are passionate about. The purpose of this blog is to monitor my progress on the project from start to end.
 TBD
 ## Content
-For my project, I am making X. This blog will walk through my process of independently studying X in order to make X.
-TBD
+For my project, I am making a Top-Down 2D Game. This blog will walk through my process of independently studying Unity in order to make the Top-Down 2D Game.
+
 ## Links
 
-Product
+[Product](https://play.unity.com/mg/other/top-down-freedom-project)
 
-Presentation
+[Presentation](https://github.com/ShenghaoD0081/Top-Down-RPG)
 
 ## Implications
 X
